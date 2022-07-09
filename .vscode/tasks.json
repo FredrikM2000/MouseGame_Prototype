@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MouseGame_Prototype Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Test",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Test",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Test",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_Prototype HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_Prototype HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_Prototype",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_PrototypeEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_PrototypeEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"MouseGame_PrototypeEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"label": "MouseGame_PrototypeEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"MouseGame_PrototypeEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		}
+	]
+}

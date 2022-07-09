@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "MouseGame_PrototypeEditor Editor Win64 Development (MouseGame_Prototype)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\.vscode\\compileCommands_MouseGame_Prototype.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

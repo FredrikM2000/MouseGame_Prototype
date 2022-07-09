@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch MouseGame_Prototype (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "MouseGame_Prototype Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MouseGame_Prototype (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "MouseGame_Prototype Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MouseGame_Prototype (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "MouseGame_Prototype Win64 Development Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MouseGame_Prototype (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "MouseGame_Prototype Win64 Test Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MouseGame_Prototype (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "MouseGame_Prototype Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MouseGame_PrototypeEditor (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "MouseGame_PrototypeEditor Win64 Debug Build",
+			"args": [
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject"
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MouseGame_PrototypeEditor (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "MouseGame_PrototypeEditor Win64 DebugGame Build",
+			"args": [
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject"
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch MouseGame_PrototypeEditor (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "MouseGame_PrototypeEditor Win64 Development Build",
+			"args": [
+				"C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject"
+			],
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "C:\\Users\\fredr\\Skrivebord\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\fredr\\Skrivebord\\Unreal projects\\FredrikM2000-MouseGame_Prototype\\MouseGame_Prototype\\MouseGame_Prototype.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "C:\\Users\\fredr\\Skrivebord\\UE_5.0"
+		}
+	]
+}
