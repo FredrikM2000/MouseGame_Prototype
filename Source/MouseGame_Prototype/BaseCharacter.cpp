@@ -6,7 +6,6 @@
 #include "Kismet/GameplayStatics.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
-#include "GameFramework/FloatingPawnMovement.h"
 
 // Sets default values
 ABaseCharacter::ABaseCharacter()
@@ -32,7 +31,6 @@ void ABaseCharacter::BeginPlay()
 void ABaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
@@ -88,13 +86,12 @@ void ABaseCharacter::StopJump()
 
 void ABaseCharacter::Switch1()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Test"));
 	if(Other1 && GetController())//If Other1 is not nullptr and Controller exists
 	{
 		AController* temp = GetController();
 		if(temp)
 		{
-			//Switch contoll from current pawn to pawn Other1
+			//Switch controll from current pawn to pawn Other1
 			temp->UnPossess();
 			temp->Possess(Other1);
 		}
@@ -108,7 +105,7 @@ void ABaseCharacter::Switch2()
 		AController* temp = GetController();
 		if(temp)
 		{
-			//Switch contoll from current pawn to pawn Other2
+			//Switch controll from current pawn to pawn Other2
 			temp->UnPossess();
 			temp->Possess(Other2);
 		}
